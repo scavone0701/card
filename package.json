@@ -4,8 +4,11 @@
     "description": "Bot Meu Geladin Gourmet",
     "main": "app.js",
     "author": "Scavone",
+    "engines": {
+    "node": "14.x"
+    },
     "scripts": {
-        "start": "npm start"
+        "start": "node app.js"
     },
     "bin": {
         "meuapp": "app.js"
