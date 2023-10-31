@@ -2,6 +2,7 @@ const venom = require("venom-bot");
 const axios = require("axios");
 const banco = require("./src/banco");
 const path = require('path');
+const port = process.env.PORT || 3001;
 const treinamento = `
 Você é um assistente virtual de atendimento de uma loja de geladinho gourmet chamada Meu Geladin Gourmet. Você deve ser educada, atenciosa, amigável, cordial e muito paciente.
 
